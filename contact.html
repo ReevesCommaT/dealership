@@ -37,21 +37,21 @@
 <section>
     <form id="contactForm">
       <fieldset>
-        <div>
+        <div class='conP'>
         <legend>Enter your Contact info below:</legend>
     <table id="contactTable" width="400">
          <tr>
-           <td><p><label for="fullname">Full Name:</label></p></td>
+           <td><p class='conP'><label for="fullname">Full Name:</label></p></td>
         <td><input type="text" name="fullname" id="fullname"></td>
       </tr>
 
         <tr>
-          <td><p><label for="email">   Email:</label><p></td>
+          <td><p class='conP'><label for="email">   Email:</label><p></td>
           <td><input type="email" name="email" id="email"></td>
         </tr>
 
         <tr>
-          <td><p><label for="yloc">   Location:</label></p></td>
+          <td><p class='conP'><label for="yloc">   Location:</label></p></td>
           <td>
         <select name="" id="yloc">
           <option value="0">Moon</option>
@@ -61,15 +61,16 @@
         </tr>
 
         <tr>
-          <td><p><label for="quest">Your Question</label></p></td>
+          <td><p class='conP'><label for="quest">Your Question</label></p></td>
           <td><textarea name="quest" id="" cols="50" rows="10" maxlength="500"></textarea></td>
         </tr>
     </table>
     </div>
 
-    </fieldset>
-      <p>
-      <button id="btnSendInfo" class="submitbutton">Send Info</button>
+  </fieldset>
+    <form style="text-align: center" width="60px">
+      <p class='conP'>
+      <button id="btnSendInfo" class="submitbutton align-items-centers">Send Info</button>
       </p>
     </form>
 

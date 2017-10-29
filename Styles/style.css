@@ -22,7 +22,7 @@ header {
 
 
 #bodyCon {
-  background-color: #CEFF74;
+  background-color: #DAFFA3;
 }
 #headCon {
     background-image: url('../Images/simon-rae-221560.jpg');
@@ -41,7 +41,9 @@ header {
 .navbar-background {
     background-color: #252A30;
 }
-
+.conP {
+  color: black;
+}
 
 .headText {
     float: right;
