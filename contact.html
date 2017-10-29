@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="bower_components\jquery\dist\jquery.min.js"></script>
+    <script src="bower_components\bootstrap\dist\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Styles\style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Reenie+Beanie|Syncopate" rel="stylesheet">
+    <title>CarMEGA</title>
+  </head>
+
+  <body id="bodyCon">
+    <section class="container-fluid">
+    <header id="headCon">
+      <div>
+        <span class="headText">...for your journey to anywhere.</span>
+      </div>
+
+      <nav class="navbar navbar-default">
+            <ul class="navbar-background">
+              <li><a id="navLogo" class="navbar-brand" href="index.html">
+              <img src="Images\carMEGA logo small.PNG"/>
+              </a></li>
+              <li><a class="navlink" href="index.html">Home</a></li>
+              <li><a class="navlink" href="inventory.html">Inventory</a></li>
+              <li><a class="navlink active" href="contact.html">Contact Us</a></li>
+              <li><a class="navlink" href="about.html">About us</a></li>
+          </ul>
+      </nav>
+      <form id="searchBox" class="form-group">
+      <input type="text" placeholder="Type here to search"></input>
+        <button id="navBtn">Go!</button>
+    </form>
+  </header>
+<section>
+    <form id="contactForm">
+      <fieldset>
+        <div>
+        <legend>Enter your Contact info below:</legend>
+    <table id="contactTable" width="400">
+         <tr>
+           <td><p><label for="fullname">Full Name:</label></p></td>
+        <td><input type="text" name="fullname" id="fullname"></td>
+      </tr>
+
+        <tr>
+          <td><p><label for="email">   Email:</label><p></td>
+          <td><input type="email" name="email" id="email"></td>
+        </tr>
+
+        <tr>
+          <td><p><label for="yloc">   Location:</label></p></td>
+          <td>
+        <select name="" id="yloc">
+          <option value="0">Moon</option>
+          <option value="1">Earth</option>
+        </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><p><label for="quest">Your Question</label></p></td>
+          <td><textarea name="quest" id="" cols="50" rows="10" maxlength="500"></textarea></td>
+        </tr>
+    </table>
+    </div>
+
+    </fieldset>
+      <p>
+      <button id="btnSendInfo" class="submitbutton">Send Info</button>
+      </p>
+    </form>
+
+    <footer width="650">
+      <p class="smalltext">Our address is <address>555 Invention Ave, Neural Node 42: My Mind</address></p>
+      <p class="smalltext">All offers contingent on approval and subject to change.</p>
+    </footer>
+
+
+</section>
+  </body>
+</html>

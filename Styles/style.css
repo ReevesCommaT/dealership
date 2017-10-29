@@ -1,0 +1,138 @@
+header {
+  height: 330px;
+  margin: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bodyAbout {
+  background-color: #613C59;
+}
+#headAbout {
+  background-image: url('../Images/tobias-greitzke-124087.jpg');
+}
+
+#bodyInv {
+  background-color: #322A57;
+}
+#headInv {
+  background-image: url('../Images/vincent-guth-178235.jpg');
+}
+
+
+#bodyCon {
+  background-color: #CEFF74;
+}
+#headCon {
+    background-image: url('../Images/simon-rae-221560.jpg');
+  }
+#bodyHome {
+  background-color: #252A30;
+}
+#headHome {
+  background-image: url('https://media.istockphoto.com/photos/dealer-new-cars-stock-picture-id480652712?k=6&m=480652712&s=612x612&w=0&h=Qiw_lJA1DGBDf3MXtddxIeZVUIrEj2e1HdXn7gUA24M=');
+}
+
+#vidDiv {
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-background {
+    background-color: #252A30;
+}
+
+
+.headText {
+    float: right;
+    color: white;
+    margin-top: 280px;
+    margin-right: 20px;
+    font-size: 2.3em;
+    font-weight: bolder;
+    font-family: 'Advent Pro', sans-serif;
+}
+nav {
+    height: 15px;
+    margin-top: 5px;
+    font-family: 'Syncopate', sans-serif;
+}
+nav ul {
+    list-style: none;
+    padding: 8px;
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li > a {
+    text-decoration: none;
+}
+nav ul li > a:hover {
+    text-decoration:underline;
+    color: white;
+}
+
+.navlink {
+    height: 18px;
+    font-size: 10px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top: 5px;
+    color: grey;
+    text-decoration: none;
+  }
+.navLogo {
+  margin-top: 15px;
+}
+.active {
+    color: #FFFFFF;
+    background-color: black;
+}
+
+p {
+  color: white;
+}
+
+#searchBox {
+    position: absolute;
+    right: 4em;
+    top: 2em;
+    font-family: 'Syncopate', sans-serif;
+  }
+}
+a.mainlink{
+  color: #A3B4E8;
+}
+#contactTable {
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+}
+.hover {
+  color: White;
+}
+footer {
+  background-color: #6D6B7A;
+  line-height: 6px;
+  text-align: center;
+  padding: 30px;
+  color: black;
+}
+fieldset {
+  border:hidden;
+}
+
+.navbar-form {
+  padding-bottom:30px;
+}
+.smalltext {
+  font-variant: small-caps;
+  color: black;
+}
+#footLogo {
+  width: 140px;
+  height: 80px;
+}
