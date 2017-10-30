@@ -14,64 +14,95 @@
   <body id="bodyCon">
     <section class="container-fluid">
     <header id="headCon">
-      <div>
+      <div class="row">
         <span class="headText">...for your journey to anywhere.</span>
       </div>
 
-      <nav class="navbar navbar-default">
-            <ul class="navbar-background">
-              <li><a id="navLogo" class="navbar-brand" href="index.html">
-              <img src="Images\carMEGA logo small.PNG"/>
-              </a></li>
-              <li><a class="navlink" href="index.html">Home</a></li>
-              <li><a class="navlink" href="inventory.html">Inventory</a></li>
-              <li><a class="navlink active" href="contact.html">Contact Us</a></li>
-              <li><a class="navlink" href="about.html">About us</a></li>
-          </ul>
-      </nav>
+<div class="container-fluid">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+        </button>
+    <a class="navbar-brand" href="index.html"><img src="Images\carMEGA logo small.PNG"/></a>
+  </div>
+
+<div class="collapse navbar-collapse" id="navbar-collapse-1">
+  <ul class="nav navbar-nav">
+    <li><a href="#"><span class="sr-only">(current)</span></a></li>
+    <li><a class="navlink" href="index.html">Home</a></li>
+    <li><a class="navlink" href="inventory.html">Inventory</a></li>
+    <li><a class="navlink active" href="contact.html">Contact Us</a></li>
+    <li><a class="navlink" href="about.html">About us</a></li>
+  </ul>
+
+  <div class="navbar-form navbar-left">
+  <ul class="nav navbar-nav navbar-left">
+      <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> 
+        <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a class="navlink" href="index.html">Home</a></li>
+        <li><a class="navlink" href="inventory.html">Inventory</a></li>
+        <li><a class="navlink active" href="contact.html">Contact Us</a></li>
+        <li><a class="navlink" href="about.html">About us</a></li>
+      </ul>
+    </li>
+  </ul>
+  </div>
+</div>
+</div>
+
+</nav>
       <form id="searchBox" class="form-group">
       <input type="text" placeholder="Type here to search"></input>
         <button id="navBtn">Go!</button>
     </form>
-  </header>
+  </header></section>
+
 <section>
     <form id="contactForm">
       <fieldset>
         <div>
-        <legend>Enter your Contact info below:</legend>
+        <legend class="conP">Enter your Contact info below:</legend>
     <table id="contactTable" width="400">
          <tr>
-           <td><p><label for="fullname">Full Name:</label></p></td>
+           <td><p class="conP"><label for="fullname">Full Name:</label></p></td>
         <td><input type="text" name="fullname" id="fullname"></td>
       </tr>
 
         <tr>
-          <td><p><label for="email">   Email:</label><p></td>
+          <td><p class="conP"><label for="email">   Email:</label><p></td>
           <td><input type="email" name="email" id="email"></td>
         </tr>
 
         <tr>
-          <td><p><label for="yloc">   Location:</label></p></td>
+          <td><p class="conP"><label for="yloc">   Location:</label></p></td>
           <td>
         <select name="" id="yloc">
-          <option value="0">Moon</option>
-          <option value="1">Earth</option>
+          <option value="0">USA</option>
+          <option value="1">International</option>
         </select>
           </td>
         </tr>
 
         <tr>
-          <td><p><label for="quest">Your Question</label></p></td>
+          <td><p class="conP"><label for="quest">Your Question</label></p></td>
           <td><textarea name="quest" id="" cols="50" rows="10" maxlength="500"></textarea></td>
         </tr>
     </table>
     </div>
-
-    </fieldset>
       <p>
-      <button id="btnSendInfo" class="submitbutton">Send Info</button>
-      </p>
+      <button class="conP" id="btnSendInfo" class="submitbutton">Send Info</button>
+    </p>
     </form>
+    </fieldset>
 
     <footer width="650">
       <p class="smalltext">Our address is <address>555 Invention Ave, Neural Node 42: My Mind</address></p>
